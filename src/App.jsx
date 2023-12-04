@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Nav from './components/nav/Nav'
-
+import Hero from './components/hero/Hero'
 import Footer from './components/footer/Footer'
 
 export default function App() {
@@ -9,6 +9,7 @@ export default function App() {
     <>
       <div className="">
         <Nav />
+        <Hero />
 
         <Footer />
       </div>
