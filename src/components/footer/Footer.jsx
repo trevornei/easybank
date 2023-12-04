@@ -4,7 +4,7 @@ import ReqDemoBtn from "../buttons/ReqDemoBtn";
 export default function() {
     return(
         <>
-            <div className="absolute inset-x-0 bottom-0">
+            <div className="">
                 <div className="flex flex-row items-center justify-around w-screen md:h-48 bg-darkBlue">
                     {/* Logo and Social Media */}
                     <div className="flex flex-col">
