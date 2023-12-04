@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        darkBlue: '#2D314D'
+        darkBlue: '#2D314D',
+        eCash: '#30C88F',
+        mGrey: '#979797'
       },
     },
   },
