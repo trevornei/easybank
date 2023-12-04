@@ -1,11 +1,12 @@
 import React from 'react'
 
-export default function Article({ img }) {
+export default function Article({ img, author, title, description }) {
   return (
     <div className="">
         <img src={img}/>
-        <h3 className="">Title</h3>
-        <p className=''>Short article description. Short article description. Short article description. Short article description.</p>
+        <p className="">{author}</p>
+        <h3 className="">{title}</h3>
+        <p className=''>{description}</p>
     </div>
   )
 }
