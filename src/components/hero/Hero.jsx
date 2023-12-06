@@ -5,10 +5,11 @@ import HeroAssets from './HeroAssets'
 export default function Hero() {
   return (
     <>
-        <div className="flex flex-row max-w-screen max-h-[676px] border-4 border-darkBlue">
-            <div className="flex flex-col items-center justify-center h-auto text-left max-w-96">
-                <h1 className="text-3xl font-bold text-darkBlue">Next generation digital banking</h1>
-                <p className="font-semibold text-mGrey">Take your financial life online. Your Easybank account <br></br> will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+        <div className="xl:pt-40 xl:pb-28 flex flex-row max-w-screen max-h-[676px] bg-mGrey/10">
+            <div className="flex flex-col items-start justify-center h-auto text-left max-w-96 xl:ml-28">
+                <h1 className="text-6xl font-light leading-[64px] text-darkBlue">Next generation</h1>
+                <h1 className="text-6xl font-light leading-[64px] text-darkBlue">digital banking</h1>
+                <p className="my-4 font-light text-mGrey">Take your financial life online. Your Easybank account <br></br> will be a one-stop-shop for spending, saving, <br></br> budgeting, investing, and much more.</p>
                 <ReqDemoBtn />
             </div>
         <HeroAssets />
