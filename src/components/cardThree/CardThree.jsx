@@ -27,7 +27,7 @@ export default function CardThree() {
   
   return (
     <>
-        <div className="flex flex-row border-4 border-yellow-300">
+        <div className="flex flex-row border-4 border-yellow-300 xl:px-28 xl:py-32">
             <Article img={MoneyPhoto} title={moneyTitle} description={moneyDesc} author={moneyAuthor} />
             <Article img={RestaurantPhoto} title={restTitle} description={restDesc} author={restAuthor} />
             <Article img={planePhoto} title={moneyTitle} description={moneyDesc} author={moneyAuthor} />
