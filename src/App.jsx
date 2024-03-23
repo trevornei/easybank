@@ -11,7 +11,7 @@ export default function App() {
     <>
       <div className="">
         <Nav />
-          <Hero />
+          <Hero className="" />
           <CardTwo />
           <CardThree />
         <Footer />
