@@ -18,7 +18,7 @@ export default function SolutionInfo() {
 
   return (
     <>
-        <div className="flex flex-row hover:bg-mGrey hover:delay-75">
+        <div className="flex flex-row">
             {/*ONLINE BANKING */}
             <div className="flex flex-col items-center justify-center xl:w-64 xl:h-72 xl:mx-8 ">
               <img className='w-16 h-16' src={BankingSymbol}/>

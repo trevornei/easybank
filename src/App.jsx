@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <>
-      <div className="">
+      <div className="scroll-smooth">
         <Nav />
           <Hero className="" />
           <CardTwo />
