@@ -18,12 +18,12 @@ export default function SolutionInfo() {
 
   return (
     <>
-        <div className="flex flex-row">
+        <div className="flex flex-row hover:bg-mGrey hover:delay-75">
             {/*ONLINE BANKING */}
-            <div className="flex flex-col items-center justify-center xl:w-64 xl:h-72 xl:mx-8">
+            <div className="flex flex-col items-center justify-center xl:w-64 xl:h-72 xl:mx-8 ">
               <img className='w-16 h-16' src={BankingSymbol}/>
               <div className="flex flex-col items-start justify-center">
-                <h1 className="text-3xl font-normal text-left text-darkBlue whitespace-nowrap xl:pt-9 xl:pb-6">Online Banking</h1>
+                <h1 className="text-3xl font-normal text-left text-darkBlue whitespace-nowrap xl:pt-9 xl:pb-6 ">Online Banking</h1>
                 <p className="text-left">
                 Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.
                 </p>
@@ -40,7 +40,7 @@ export default function SolutionInfo() {
               </div>
             </div>
             {/*FAST ONBOARDING */}
-            <div className="flex flex-col items-center justify-center xl:w-64 xl:h-72 xl:mx-8">
+            <div className="flex flex-col items-center justify-center xl:w-64 xl:h-72 xl:mx-8 ">
               <img className='w-16 h-16' src={OnboardingSymbol}/>
               <div className="flex flex-col items-start justify-center">
                 <h1 className="text-3xl font-normal text-left text-darkBlue whitespace-nowrap xl:pt-9 xl:pb-6">Fast Onboarding</h1>
