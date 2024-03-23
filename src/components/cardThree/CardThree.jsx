@@ -26,7 +26,7 @@ export default function CardThree() {
   
   return (
     <>
-        <div className="bg-gradient-to-br from-emerald-300/40 from-10% via-emerald-200/20 via-30% to-green-300/70 xl:px-40">
+        <div className="xl:px-40">
           <div className="xl:px-28 xl:pt-16">
             <h1 className="text-6xl text-darkBlue">Latest Articles</h1>
           </div>
