@@ -9,13 +9,13 @@ export default function App() {
 
   return (
     <>
-      <div className="scroll-smooth">
-        <Nav />
-          <Hero className="" />
-          <CardTwo />
-          <CardThree />
-        <Footer />
-      </div>
+        <div className="selection-eCash/20 scroll-smooth cursor-crosshair">
+          <Nav />
+            <Hero />
+            <CardTwo />
+            <CardThree />
+          <Footer />
+        </div>
     </>
   )
 }

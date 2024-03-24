@@ -8,7 +8,7 @@ export default function CardTwo() {
             <div className="flex flex-col xl:px-40">
                 <div className="flex flex-row">
                   <h1 className="text-5xl xl:mx-8 xl:font-semibold leading-[64px] text-darkBlue z-50">Why choose</h1>
-                  <span className='relative inline-block xl:-translate-x-12 whitespace-nowrap before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-gradient-to-br before:from-eCash before:to-yellow-300 before:blur-xl before:animate-pulse'>
+                  <span className='relative inline-block ring-eCash xl:-translate-x-12 whitespace-nowrap before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-gradient-to-br before:from-eCash before:to-yellow-300 before:blur-xl before:animate-pulse'>
                     <span className="text-5xl xl:mx-8 xl:font-semibold leading-[64px] text-darkBlue relative">Easybank?</span>
                   </span>
                 </div>
