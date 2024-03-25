@@ -18,7 +18,7 @@ export default function SolutionInfo() {
 
   return (
     <>
-        <div className="flex flex-row items-center justify-center">
+        <div className="flex flex-row items-center justify-center mt-16">
             {/*ONLINE BANKING */}
             <div className="flex flex-col items-center justify-center xl:w-64 xl:h-72 xl:mx-8 ">
               <img className='w-16 h-16' src={BankingSymbol}/>
@@ -29,7 +29,7 @@ export default function SolutionInfo() {
                 </p>
               </div>
             </div>
-            <div className="border-2 h-44 rounded-xl border-darkBlue opacity-40"></div>
+            <div className="border-2 h-44 rounded-xl border-eCash opacity-40"></div>
             {/*SIMPLE BUDGETING */}
             <div className="flex flex-col items-center justify-center xl:w-64 xl:h-72 xl:mx-8">
               <img className='w-16 h-16' src={Budgeting}/>
@@ -41,7 +41,7 @@ export default function SolutionInfo() {
               </div>
             </div>
 
-            <div className="border-2 h-44 rounded-xl border-darkBlue opacity-40"></div>
+            <div className="border-2 h-44 rounded-xl border-eCash opacity-40"></div>
             
             {/*FAST ONBOARDING */}
             <div className="flex flex-col items-center justify-center xl:w-64 xl:h-72 xl:mx-8 ">
@@ -54,7 +54,7 @@ export default function SolutionInfo() {
               </div>
             </div>
 
-            <div className="border-2 h-44 rounded-xl border-darkBlue opacity-40"></div>
+            <div className="border-2 h-44 rounded-xl border-eCash opacity-40"></div>
             
             {/*OPEN API */}
             <div className="flex flex-col items-center justify-center xl:w-64 xl:h-72 xl:mx-8">
