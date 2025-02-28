@@ -4,7 +4,7 @@ import SolutionCont from "./SolutionCont";
 export default function CardTwo() {
   return (
     <>
-      <div className="flex flex-col xl:px-40 xl:pt-[175px] xl:mt-[175px] bg-slate-400/5">
+      <div className="flex flex-col xl:px-40 xl:pt-[175px] xl:my-[175px] bg-slate-400/5">
         <div className="flex flex-row">
           <h1 className="text-5xl xl:mx-8 xl:font-semibold leading-[64px] text-darkBlue z-0">
             Why choose
@@ -24,8 +24,8 @@ export default function CardTwo() {
             Control your finances like never before 😊 💵.
           </p>
         </div>
-        <SolutionCont />
       </div>
+      <SolutionCont />
     </>
   );
 }
