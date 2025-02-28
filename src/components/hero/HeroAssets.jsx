@@ -5,15 +5,16 @@ import { gsap } from "gsap";
 
 export default function HeroAssets() {
   useEffect(() => {
-    gsap.fromTo(".movers", { x: 165, duration: 1 }, { x: 0 });
+    gsap.from(".movers", { x: -165, duration: 1 });
+    gsap.to(".movers", { x: 0 });
   }, []);
 
   return (
     <>
-      <div className=" absolute movers -z-30 overflow-x-clip xl:-translate-y-80 ">
-        <div className="absolute translate-x-16 -translate-y-32 xl:overflow-hidden-x">
+      <div className="movers -z-10 overflow-x-clip absolute xl:top-[350px] w-full h-full border-8 border-blue-700">
+        <div className="absolute -z-10 translate-x-16 -translate-y-32 xl:overflow-hidden-x">
           <svg
-            className="top-0 right-0 z-10"
+            className="top-0 right-0 z-10 blur-lg"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             width="1271"

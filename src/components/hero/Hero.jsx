@@ -1,13 +1,10 @@
 import ReqDemoBtn from "../buttons/ReqDemoBtn";
-import HeroAssets from "./HeroAssets";
-
-import { gsap } from "gsap";
 
 export default function Hero() {
   return (
     <>
-      <div className="xl:pt-40 xl:pb-0 xl:px-40 flex-wrap flex-row max-w-screen max-h-[676px] bg-emerald-100/30">
-        <div className="z-50 flex-col flex-wrap items-start justify-center h-auto text-left xl:-translate-x-20 max-w-96 xl:ml-28 ">
+      <div className="xl:pt-40 xl:pb-0 xl:px-0 flex-wrap flex-row max-w-screen max-h-[676px] bg-emerald-100/30 relative z-20 border-4 border-red-400">
+        <div className="z-50 flex-col flex-wrap items-start justify-center h-auto text-left xl:-translate-x-20 max-w-96 xl:ml-28 border-4 border-red-400 bg-eCash/10 backdrop-blur-lg ">
           <h1 className="text-6xl leading-[64px] text-darkBlue">
             Next generation
           </h1>
@@ -21,7 +18,6 @@ export default function Hero() {
           </p>
           <ReqDemoBtn />
         </div>
-        <HeroAssets className="" />
       </div>
     </>
   );
