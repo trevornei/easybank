@@ -11,7 +11,7 @@ export default function HeroAssets() {
 
   return (
     <>
-      <div className="movers -z-10 overflow-x-clip absolute xl:top-[350px] w-full h-full border-8 border-blue-700">
+      <div className="movers z-0 overflow-x-clip absolute xl:top-[350px] w-full h-full">
         <div className="absolute -z-10 translate-x-16 -translate-y-32 xl:overflow-hidden-x">
           <svg
             className="top-0 right-0 z-10 blur-lg"
