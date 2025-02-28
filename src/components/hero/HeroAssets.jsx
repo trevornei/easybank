@@ -12,9 +12,9 @@ export default function HeroAssets() {
   return (
     <>
       <div className="movers z-0 overflow-x-clip absolute xl:top-[350px] w-full h-full xl:-right-[100px]">
-        <div className="absolute -z-10 translate-x-16 -translate-y-32 xl:overflow-hidden-x">
+        <div className="absolute -z-10 translate-x-[450px] -translate-y-[300px] xl:overflow-hidden-x">
           <svg
-            className="z-10 blur-lg rotate-12"
+            className="z-10 "
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             width="1271"
@@ -66,9 +66,9 @@ export default function HeroAssets() {
           </svg>
         </div>
 
-        <div className="xl:overflow-hidden-x">
+        <div className="xl:overflow-hidden-x z-0 xl:translate-x-[580px] xl:-translate-y-[500px] ">
           <svg
-            className="z-0 translate-x-[120px] -translate-y-1/4 rotate-12"
+            className=""
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             width="1271"
@@ -120,11 +120,11 @@ export default function HeroAssets() {
           </svg>
 
           {/* Phones image */}
-          <img
-            className="absolute top-0 right-0 z-20 -translate-y-56 xl:overflow-hidden-x"
-            src={Phone}
-          ></img>
         </div>
+        <img
+          className="absolute top-0 xl:-right-[40px] z-20 -translate-y-56 xl:overflow-hidden-x"
+          src={Phone}
+        ></img>
       </div>
     </>
   );
