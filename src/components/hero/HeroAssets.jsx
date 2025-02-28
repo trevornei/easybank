@@ -11,10 +11,10 @@ export default function HeroAssets() {
 
   return (
     <>
-      <div className="movers z-0 overflow-x-clip absolute xl:top-[350px] w-full h-full">
+      <div className="movers z-0 overflow-x-clip absolute xl:top-[350px] w-full h-full xl:-right-[100px]">
         <div className="absolute -z-10 translate-x-16 -translate-y-32 xl:overflow-hidden-x">
           <svg
-            className="top-0 right-0 z-10 blur-lg"
+            className="z-10 blur-lg rotate-12"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             width="1271"
@@ -68,7 +68,7 @@ export default function HeroAssets() {
 
         <div className="xl:overflow-hidden-x">
           <svg
-            className="z-0 translate-x-56 -translate-y-1/4"
+            className="z-0 translate-x-[120px] -translate-y-1/4 rotate-12"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             width="1271"
