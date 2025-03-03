@@ -66,7 +66,10 @@ export default function HeroAssets() {
           </svg>
         </div>
 
-        <div className="xl:overflow-hidden-x z-0 xl:translate-x-[580px] xl:-translate-y-[500px] lg:translate-x-[450px]  lg:overflow-hidden-x">
+        <div className="xl:overflow-hidden-x z-0 xl:translate-x-[580px] lg:-translate-y-[290px] xl:-translate-y-[500px] lg:translate-x-[520px]  lg:overflow-hidden-x">
+          {/* 
+          SVG #One
+          */}
           <svg
             className=""
             xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +125,7 @@ export default function HeroAssets() {
           {/* Phones image */}
         </div>
         <img
-          className="absolute top-0 xl:-right-[40px] z-20 -translate-y-56 xl:overflow-hidden-x"
+          className="absolute md:w-[500px] md:h-auto top-0 xl:-right-[40px] z-20 -translate-y-56 xl:overflow-hidden-x lg:-right-[50px] lg:-top-0"
           src={Phone}
         ></img>
       </div>
