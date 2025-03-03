@@ -9,9 +9,9 @@ import HeroAssets from "./components/hero/HeroAssets";
 export default function App() {
   return (
     <>
+      <Nav />
       <div className="selection-eCash/20 scroll-smooth cursor-crosshair relative w-screen h-auto overflow-clip">
-        <Nav />
-        <div className="relative">
+        <div className="mt-40">
           <Hero />
           <HeroAssets />
         </div>
