@@ -11,7 +11,7 @@ export default function App() {
     <>
       <Nav />
       <div className="selection-eCash/20 scroll-smooth cursor-crosshair relative w-screen h-auto overflow-clip">
-        <div className="">
+        <div className="lg:mb-[800px]">
           <Hero />
           <HeroAssets />
         </div>
